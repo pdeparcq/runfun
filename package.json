@@ -4,7 +4,8 @@
   "description": "running calendar and results app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "tsc -p src -w",
+    "start": "live-server --open=src"
   },
   "keywords": [],
   "author": "",
