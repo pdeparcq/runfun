@@ -25,8 +25,8 @@
     <!-- endinject -->
     <!-- endbuild -->
 </head>
-<body>
-    <div ui-view></div>
+<body layout="column" ng-controller="shellController as shell">
+    <div ng-include="'app/layout/shell.html'"></div>
 
     <!-- build:js js/lib.js -->
     <!-- bower:js -->

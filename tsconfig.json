@@ -12,6 +12,7 @@
         "wwwroot/app/blocks/router/router.module.ts",
         "wwwroot/app/core/core.module.ts",
         "wwwroot/app/home/home.module.ts",
+        "wwwroot/app/layout/layout.module.ts",
         "wwwroot/app/blocks/exception/exception-handler.provider.ts",
         "wwwroot/app/blocks/exception/exception.ts",
         "wwwroot/app/blocks/log/logger.ts",
@@ -20,6 +21,7 @@
         "wwwroot/app/core/core.route.ts",
         "wwwroot/app/core/notFound.controller.ts",
         "wwwroot/app/home/home.controller.ts",
-        "wwwroot/app/home/home.route.ts"
+        "wwwroot/app/home/home.route.ts",
+        "wwwroot/app/layout/shell.controller.ts"
     ]
 }
