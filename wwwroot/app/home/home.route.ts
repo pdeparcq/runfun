@@ -20,6 +20,16 @@ module Runfun.Home {
                     controller: 'homeController',
                     controllerAs: 'vm'
                 }
+            },
+            {
+                state: 'calendar',
+                config:{
+                    url: '/calendar',
+                    templateUrl: 'app/home/calendar.html',
+                    title: 'Calendar',
+                    controller: 'calendarController',
+                    controllerAs: 'vm'
+                }
             }
         ];
     }

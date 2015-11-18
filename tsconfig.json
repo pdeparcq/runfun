@@ -20,6 +20,7 @@
         "wwwroot/app/core/config.ts", "wwwroot/app/core/constants.ts",
         "wwwroot/app/core/core.route.ts",
         "wwwroot/app/core/notFound.controller.ts",
+        "wwwroot/app/home/calendar.controller.ts",
         "wwwroot/app/home/home.controller.ts",
         "wwwroot/app/home/home.route.ts",
         "wwwroot/app/layout/shell.controller.ts"
