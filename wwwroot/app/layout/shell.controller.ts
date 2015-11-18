@@ -7,15 +7,14 @@ module Runfun.Layout{
         
         static $inject = ['$mdSidenav'];
         
-        private sideNav : any;
+        private sideNavigation : angular.material.ISidenavService;
         
-        constructor($mdSidenav) {
-           this.sideNav = $mdSidenav;
+        constructor($mdSidenav : angular.material.ISidenavService) {
+           this.sideNavigation = $mdSidenav;
         }
         
-        public toggleSidenav(menuId : string){
-            this.sideNav(menuId).toggle();
-            console.info("sidenavigation triggered")
+        public toggleSideNavigation(menuId : string){
+            this.sideNavigation(menuId).toggle();
         }
     }
 
